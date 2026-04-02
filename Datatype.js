@@ -1,3 +1,4 @@
+/*_________________Primitive Data types____________________*/
 let x = 10;
 console.log(x);
 console.log(typeof(x));
@@ -34,3 +35,7 @@ null
 object
  * 
  */
+
+/*_________________Non Primitive Data Types___________________*/
+// Objects
+

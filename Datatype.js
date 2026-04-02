@@ -39,3 +39,14 @@ object
 /*_________________Non Primitive Data Types___________________*/
 // Objects
 
+const Student =
+{
+    fullName : "Akash Kunar",
+    Age : 24,
+    Course : "MCA AI",
+    College : "GBU"
+};
+console.log(Student["fullName"]);
+console.log(Student["Age"]);
+console.log(Student.Course);
+console.log(Student.College);

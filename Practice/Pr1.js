@@ -8,3 +8,16 @@ const Product =
 };
 
 console.log(Product)
+
+
+const Profile =
+{
+    userName : "Akash Kumar",
+    isfollow : true,
+    followers : 599,
+    following : 45,
+    Bio : " Its Python developer and " 
+
+};
+
+console.log(Profile)

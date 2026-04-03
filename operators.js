@@ -52,6 +52,32 @@ console.log("x /= 5 = ",x /= 5);
 console.log("x %= 5 = ",x %= 5);
 console.log("x **= 5 = ",x **= 5);
 
+// Comparision Operators 
+/*
+-----------------------------------------------------------------
+| Operator | Meaning                     | Example     | Result |
+| -------- | --------------------------- | ----------- | ------ |
+| `==`     | Equal (loose)               | `5 == "5"`  | true   |
+| `===`    | Strict equal (value + type) | `5 === "5"` | false  |
+| `!=`     | Not equal (loose)           | `5 != "5"`  | false  |
+| `!==`    | Strict not equal            | `5 !== "5"` | true   |
+| `>`      | Greater than                | `10 > 5`    | true   |
+| `<`      | Less than                   | `10 < 5`    | false  |
+| `>=`     | Greater than or equal       | `10 >= 10`  | true   |
+| `<=`     | Less than or equal          | `5 <= 10`   | true   |
+------------------------------------------------------------------
+*/
+
+let c = 15;
+let d = 25;
+console.log("c == d = ", c == d);
+console.log("c === d = ", c === d);
+console.log("c != d = ", c != d);
+console.log("c !== d = ", c !== d);
+console.log("c > d = ", c > d);
+console.log("c < d = ", c < d);
+console.log("c >= d = ", c >= d);
+console.log("c <= d = ", c <= d);
 
 
 

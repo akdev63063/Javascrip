@@ -79,6 +79,26 @@ console.log("c < d = ", c < d);
 console.log("c >= d = ", c >= d);
 console.log("c <= d = ", c <= d);
 
+// Logical Operator 
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+| Operator | Name | Meaning                          | Example         | Result                       |       |   |        |      |
+| -------- | ---- | -------------------------------- | --------------- | ---------------------------- | ----- | - | ------ | ---- |
+| `&&`     | AND  | True if both conditions are true | `true && false` | false                        |       |   |        |      |
+| `||       | OR     At least one true| `                                | OR              | True if at least one is true | `true |   | false` | true |
+| `!`      | NOT  | Reverses the result              | `!true`         | false                        |       |   |        |      |
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+let e = 6;
+let f = 7;
+cond1 = (e < f);
+cond2 = (e !== f);
+console.log("cond1 && cond2 : ",cond1 && cond2 );
+cond3 = (e > f);
+console.log("cond1 || cond3 : ",cond1 || cond3 );
+console.log("cond1 ! cond2 : ",cond1 && cond2 );
+
+
 
 
 

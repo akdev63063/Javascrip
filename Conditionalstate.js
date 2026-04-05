@@ -22,3 +22,28 @@ if (mode === "dark")
     color = "Black"
 }
 console.log(color)
+
+// If else Statement 
+
+let colors;
+if (mode === "dark")
+{
+    colors = "black"
+}
+else
+{
+    colors = "white"
+}
+console.log(colors);
+
+// if - else Statement  
+
+let voter_age = 10;
+if (voter_age > 18)
+{
+    console.log("You can vote");
+}
+else
+{
+    console.log("You cant vote")
+}

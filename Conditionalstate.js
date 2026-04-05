@@ -47,3 +47,36 @@ else
 {
     console.log("You cant vote")
 }
+
+// Example 2 
+let num = 21;
+if (num % 2 === 0)
+{
+    console.log(num,"Number is Even");
+}
+else
+{
+    console.log(num,"Number is odd");
+}
+
+// If - else if - else Statement 
+let ages = 70;
+
+if (ages < 18)
+{
+    console.log("Junior")
+}
+else if(ages > 60)
+{
+ console.log("Senior")
+}
+else
+{
+    console.log("Middle")
+}
+
+// Ternary Operators 
+// Syntax :     condtion ? True output : False output 
+let ag = 15;
+rsult = ag > 18 ? "adult" : "not adult";
+console.log(rsult)

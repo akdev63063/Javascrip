@@ -8,4 +8,17 @@ Conditional statements in JavaScript are used to make decisions based on conditi
 */
 
 // If - Statement
- 
+
+let age = 25;
+if (age > 18)
+{
+    console.log("You can vote");
+}
+
+let mode = "dark";
+let color;
+if (mode === "dark")
+{
+    color = "Black"
+}
+console.log(color)

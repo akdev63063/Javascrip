@@ -10,5 +10,12 @@ for...in → object keys
 for (initialization; condition; increment/decrement) {
     // code to execute
 }
-
 */
+// Example no 1 Print five times to I love javascripts
+let sum = 0;
+for(let i=1;i<=5;i++)
+{
+    sum += i;
+};
+ console.log("Sum of All: ",sum);
+        console.log("I love Javascripts");

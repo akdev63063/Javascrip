@@ -17,5 +17,13 @@ for(let i=1;i<=5;i++)
 {
     sum += i;
 };
- console.log("Sum of All: ",sum);
-        console.log("I love Javascripts");
+ console.log(".Sum of All: ",sum);
+console.log("I love Javascripts");
+
+// Print table of spacefic Number 
+let num = prompt("Enter a Number : ");
+for(let i = 1; i<=10;i++)
+{
+    console.log(i * num)
+};
+console.log("End Table")

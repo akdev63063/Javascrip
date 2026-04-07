@@ -27,3 +27,21 @@ for(let i = 1; i<=10;i++)
     console.log(i * num)
 };
 console.log("End Table")
+
+/*
+While Loop in JavaScript
+
+A while loop runs a block of code as long as a condition is true.
+
+syntax : while (condition) {
+    // code to execute
+}
+*/
+let i = 1;
+while(i <= 10)
+{
+    console.log(" i = ",i)
+    i++;
+}
+
+

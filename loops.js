@@ -74,3 +74,12 @@ for(let i of name)
 {
     console.log(" i =",i);
 }
+// With String size
+let name1 = "Akash";
+let size = 0;
+for(let i of name1)
+{
+    console.log(" i =",i);
+    size++;
+}
+console.log("Size of String: ",size)

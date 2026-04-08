@@ -83,3 +83,15 @@ for(let i of name1)
     size++;
 }
 console.log("Size of String: ",size)
+
+/*
+for In Loops 
+for...in loop in JavaScript
+
+The for...in loop is used to iterate over the keys (properties) of an object.
+
+✅ Syntax
+for (let key in object) {
+    // code
+}
+*/

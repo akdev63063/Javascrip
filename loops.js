@@ -69,3 +69,8 @@ Syntax : for (let variable of iterable) {
     // code to execute
 }
 */
+let name = "Akash";
+for(let i of name)
+{
+    console.log(" i =",i);
+}

@@ -51,4 +51,11 @@ Syntax : do {
     // code to be executed
 } while (condition);
 */
+let n = 1;
+do{
+    console.log("Hello Everyone")
+    n++;
+}while(n<=10);
+
+
 

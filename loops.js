@@ -57,5 +57,15 @@ do{
     n++;
 }while(n<=10);
 
+/*
+for...of loop in JavaScript
 
+The for...of loop is used to iterate over iterable objects like:
 
+Arrays ✅
+Strings ✅
+Maps, Sets ✅
+Syntax : for (let variable of iterable) {
+    // code to execute
+}
+*/

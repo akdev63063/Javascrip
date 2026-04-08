@@ -95,3 +95,14 @@ for (let key in object) {
     // code
 }
 */
+
+let student =
+{
+    name : "Akash",
+    course: "Mca",
+    college:"GBU"
+};
+for (let i in student)
+{
+    console.log("Keys : ",i);
+}

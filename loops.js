@@ -40,8 +40,15 @@ syntax : while (condition) {
 let i = 1;
 while(i <= 10)
 {
-    console.log(" i = ",i)
+    console.log("i = ",i)
     i++;
 }
+/*
+do...while loop in JavaScript
 
+A do...while loop is used to execute a block of code at least once, and then repeat it while a condition is true
+Syntax : do {
+    // code to be executed
+} while (condition);
+*/
 

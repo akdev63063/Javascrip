@@ -17,3 +17,16 @@ for(i in name)
 {
     console.log(name[i]);
 }
+
+/*
+Template literals in JavaScript are a modern way to work with strings using backticks ( ) instead of single (' ') or double (" ") quotes.
+
+They make it easier to:
+
+Insert variables
+Write multi-line strings
+Use expressions inside strings
+🔹 Syntax
+let str = `This is a template literal`;
+You can directly use variables inside ${}
+*/

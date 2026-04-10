@@ -29,4 +29,12 @@ Use expressions inside strings
 🔹 Syntax
 let str = `This is a template literal`;
 You can directly use variables inside ${}
+
 */
+// Example 1
+let objet = {
+    item : "Pen",
+    Price : 10
+};
+
+console.log(`The item ${objet.item} is price ${objet.Price} rupees`)

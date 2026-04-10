@@ -10,3 +10,10 @@ let str2 = 'World';
 3. Backticks (Template Literals)
 let str3 = `Hello Akash`;
 */
+
+let name = "Akash" // create String
+console.log("Length of String : ",name.length);
+for(i in name)
+{
+    console.log(name[i]);
+}

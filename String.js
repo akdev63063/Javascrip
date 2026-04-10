@@ -37,4 +37,23 @@ let objet = {
     Price : 10
 };
 
-console.log(`The item ${objet.item} is price ${objet.Price} rupees`)
+console.log(`The item ${objet.item} is price ${objet.Price} rupees`);
+/*
+What is String Interpolation?
+
+String interpolation is a concept where you insert variables or expressions directly inside a string instead of joining them using +.
+
+👉 It makes code clean, readable, and easy to write.
+
+🔹 Syntax (JavaScript)
+
+In JavaScript, string interpolation is done using template literals:
+
+`string text ${expression}`
+Use backticks ( )
+Use ${} to insert variables or expressions
+`string text ${expression}`
+
+*/
+// Template Literals and String Interpolation both are mostly same but not exactly 
+

@@ -82,3 +82,6 @@ console.log(str1.replace("Kumar","Gautam"));
  // example of trim()
 let str2 = "      Akash";
  console.log(str2.trim());
+
+ // concatination 
+ console.log(str1.concat(str2));

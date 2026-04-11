@@ -56,4 +56,16 @@ Use ${} to insert variables or expressions
 
 */
 // Template Literals and String Interpolation both are mostly same but not exactly 
+//
 
+/*
+Strings Methods 
+💡 Quick Summary
+Use slice() / substring() → to extract
+Use replace() / replaceAll() → to modify
+Use includes() / indexOf() → to search
+Use split() → to convert into array
+*/
+
+let str1 = "AkashKumar";
+console.log(str1.slice(0,5));

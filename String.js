@@ -67,7 +67,7 @@ Use includes() / indexOf() → to search
 Use split() → to convert into array
 */
 
-let str1 = "AkashKumar";
+let str1 = "Akash Kumar";
 console.log(str1.slice(0,5));
 
 // Example Replace() 
@@ -78,3 +78,7 @@ console.log(str1.replace("Kumar","Gautam"));
 
  // Example of toLowerCase()
  console.log(str1.toLowerCase());
+
+ // example of trim()
+let str2 = "      Akash";
+ console.log(str2.trim());

@@ -69,3 +69,6 @@ Use split() → to convert into array
 
 let str1 = "AkashKumar";
 console.log(str1.slice(0,5));
+
+// Example Replace() 
+console.log(str1.replace("Kumar","Gautam")); 

@@ -72,3 +72,9 @@ console.log(str1.slice(0,5));
 
 // Example Replace() 
 console.log(str1.replace("Kumar","Gautam")); 
+
+// Example of toUpperCase()
+ console.log(str1.toUpperCase());
+
+ // Example of toLowerCase()
+ console.log(str1.toLowerCase());

@@ -7,3 +7,4 @@ username = prompt("Enter the username : ");
 start_with = "@"+username;
 len = username.length;
 console.log(start_with.concat(len));
+

@@ -36,3 +36,9 @@ for(let num of numbers)
 {
    console.log(num); 
 }
+
+let cities = ["Delhi","Merut","Goa","Noida","Gr Noida"];
+for (let city of cities)
+{
+    console.log(city);
+}

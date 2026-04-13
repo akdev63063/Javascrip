@@ -17,3 +17,22 @@ for(let i = 0; i <= marks.length;i++)
     console.log(marks[i]);
 }
 console.log("Loops end");
+
+/*
+🔁 for...of Loop in JavaScript
+
+The for...of loop is used to iterate over iterable objects like arrays, strings, maps, sets, etc. It directly gives you the values of elements.
+
+✅ Syntax
+for (let variable of iterable) {
+    // code to execute
+}
+variable → each element value
+iterable → array, string, etc.
+*/
+
+let numbers = [10,20,30,40,50];
+for(let num of numbers)
+{
+   console.log(num); 
+}

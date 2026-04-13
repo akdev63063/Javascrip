@@ -32,3 +32,10 @@ let even = arr.filter(x => x % 2 === 0);
 let num = arr.find(x => x > 2);
 // 3
 */
+
+// Example of Push() methods 
+let food_items = ["Apple","Mango","Patato","Gauva"];
+console.log(`Before adding any items : ${food_items}`);
+food_items.push("Litchi","Patato");
+console.log(`After adding some items arrays: ${food_items}`);
+

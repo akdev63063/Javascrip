@@ -62,3 +62,9 @@ console.log(heros);
 let india_heros =["Shakriman", "Krish"];
 let add_heros =india_heros.unshift("Doremon");
 console.log(india_heros);
+
+// shift()  methods for deleting from start in array 
+let new_arr = [20,40,60,80,100];
+let remove_ele = new_arr.shift();
+console.log("Array after removing elemnet: ",new_arr);
+console.log("Removed Element : ",remove_ele);

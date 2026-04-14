@@ -45,3 +45,8 @@ delete_item = food_items.pop();
 console.log(`After Pop food items: ${food_items}`);
 console.log(`Deleted item is : ${delete_item}`);
 
+//toString() method array convert to string 
+
+let marks = [10,20,30,40,50,60];
+console.log(marks);
+console.log(`Change tostring() : ${marks.toString()}`);

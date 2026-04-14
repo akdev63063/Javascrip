@@ -68,3 +68,6 @@ let new_arr = [20,40,60,80,100];
 let remove_ele = new_arr.shift();
 console.log("Array after removing elemnet: ",new_arr);
 console.log("Removed Element : ",remove_ele);
+
+// Slice() method : Retunr the piece of array
+console.log(new_arr.slice(2,4));

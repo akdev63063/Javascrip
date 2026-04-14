@@ -56,3 +56,9 @@ let marvelHeros = ["Ironman","Captain America","Thor"];
 let dcHeros = ["Batman","Superhero"];
 let heros = marvelHeros.concat(dcHeros);
 console.log(heros);
+
+// unshift( ) method : Add to start in arrays
+
+let india_heros =["Shakriman", "Krish"];
+let add_heros =india_heros.unshift("Doremon");
+console.log(india_heros);

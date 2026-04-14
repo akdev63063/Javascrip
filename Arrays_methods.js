@@ -71,3 +71,10 @@ console.log("Removed Element : ",remove_ele);
 
 // Slice() method : Retunr the piece of array
 console.log(new_arr.slice(2,4));
+
+// Splice() method use for : add, remove and replce
+
+let num_arr = [1,2,3,4,5,6,7,8];
+console.log("Deleted element: ",num_arr.splice(2,2,100,101));
+console.log("Changed Array is : ",num_arr);
+

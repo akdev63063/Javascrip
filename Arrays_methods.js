@@ -39,3 +39,9 @@ console.log(`Before adding any items : ${food_items}`);
 food_items.push("Litchi","Patato");
 console.log(`After adding some items arrays: ${food_items}`);
 
+// Example of Pop() methods 
+console.log(`Before pop food items : ${food_items}`);
+delete_item = food_items.pop();
+console.log(`After Pop food items: ${food_items}`);
+console.log(`Deleted item is : ${delete_item}`);
+

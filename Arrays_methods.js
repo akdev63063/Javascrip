@@ -50,3 +50,9 @@ console.log(`Deleted item is : ${delete_item}`);
 let marks = [10,20,30,40,50,60];
 console.log(marks);
 console.log(`Change tostring() : ${marks.toString()}`);
+// concat method use for add multiple arrays and print result 
+
+let marvelHeros = ["Ironman","Captain America","Thor"];
+let dcHeros = ["Batman","Superhero"];
+let heros = marvelHeros.concat(dcHeros);
+console.log(heros);

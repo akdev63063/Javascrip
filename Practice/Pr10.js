@@ -15,3 +15,7 @@ Remove uber and Add Ola in its place
 */
 let uber_to_Ola =companies.splice(1,1,"OLA");
 console.log(`add Ola in Uber Place : ${companies}`);
+
+// Add Amazone at the End 
+let add_amazone = companies.push("Amazone");
+console.log(companies);

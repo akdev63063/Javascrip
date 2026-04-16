@@ -68,8 +68,9 @@ myFunction();
 myFunction();
 
 // Function with Arguments/Parameter
-function print_urmsg ()
+function print_urmsg (msg)
 {
-    console.log(print_urmsg);
+    console.log(msg);
 }
-print_urmsg("I love Javasripts"); // arguments pass 
+print_urmsg("I love Javasript Programming"); // arguments pass 
+

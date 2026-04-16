@@ -55,3 +55,14 @@ Arrow Function
 Callback Function
 Recursive Function
 */
+
+// Example 1
+function  myFunction()
+{
+    console.log("Example 1");
+    console.log("I am learning about funtion");
+    console.log("I Love Programing");
+}
+
+myFunction();
+myFunction();

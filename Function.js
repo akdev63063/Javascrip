@@ -66,3 +66,10 @@ function  myFunction()
 
 myFunction();
 myFunction();
+
+// Function with Arguments/Parameter
+function print_urmsg ()
+{
+    console.log(print_urmsg);
+}
+print_urmsg("I love Javasripts"); // arguments pass 

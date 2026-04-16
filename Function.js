@@ -74,3 +74,24 @@ function print_urmsg (msg)
 }
 print_urmsg("I love Javasript Programming"); // arguments pass 
 
+// Example 3 create add function 
+
+function add(a,b)
+{
+    console.log(a+b);
+}
+add(2,4);
+
+// Example 4
+function sum(a,b)
+{
+    let s = a+b;
+    return s;
+}
+let print_output = sum(10,20);
+console.log(print_output);
+
+
+
+
+

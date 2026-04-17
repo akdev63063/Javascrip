@@ -16,3 +16,20 @@ function VowelsCounts(typestring)
 
 }
 VowelsCounts("akash");
+
+// Same solve this problem by arrow functions 
+
+let c_v = (any_string) =>
+{
+let cou_var = 0;
+    for(let char of any_string)
+    {
+        if(char === "a" || char === "e" || char === "i" || char === "o" || char === "u")
+        {
+            cou_var++;
+        }
+    }
+        console.log("Total Vowels in this strings is : ",cou_var);
+}
+ c_v ("ajay");
+ 

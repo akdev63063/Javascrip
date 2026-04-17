@@ -21,8 +21,21 @@ const add = (a, b) => {
     return a + b;
 }
 */
+
+// Example 1
 const mul = (a , b) => {
     return a * b;
 };
 let show = mul(4,5);
 console.log(show);
+
+// Example 2
+
+let printHello = () =>
+{
+    console.log("Hello coder");
+}
+
+printHello()
+
+

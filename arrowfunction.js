@@ -21,3 +21,8 @@ const add = (a, b) => {
     return a + b;
 }
 */
+const mul = (a , b) => {
+    return a * b;
+};
+let show = mul(4,5);
+console.log(show);

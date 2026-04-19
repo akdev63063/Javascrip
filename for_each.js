@@ -49,3 +49,8 @@ arr.forEach(function prnum(val)
     console.log(val);
 });
 
+let name = ["Prince","Anvik","Rishu","Himanshu","Harshit"];
+name.forEach((val) =>
+{
+    console.log(val);
+});

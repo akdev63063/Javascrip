@@ -1,4 +1,4 @@
-/*
+ /*
 What is an Array?
 An array is a collection of elements stored in a single variable.
 let fruits = ["apple", "banana", "mango"];

@@ -55,7 +55,17 @@ fruits.forEach((fruit, index) => {
 //     console.log(val);
 // });
 
+// let heros = ["Ironman","Batman","Spyderman","Saktiman"];
+// heros.forEach(element => {
+//     console.log(element)
+// });
+
 let heros = ["Ironman","Batman","Spyderman","Saktiman"];
-heros.forEach(element => {
-    console.log(element)
+heros.forEach((val) => {
+    console.log(val)
+});
+
+let hero = ["Ironman","Batman","Spyderman","Saktiman"];
+heros.forEach((val,indx) => {
+    console.log(val,indx)
 });

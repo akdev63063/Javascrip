@@ -43,14 +43,19 @@ fruits.forEach((fruit, index) => {
 */
 
 // Example 1 : Print array numbers 
-let arr = [1,2,3,4,5,6];
-arr.forEach(function prnum(val)
-{
-    console.log(val);
-});
+// let arr = [1,2,3,4,5,6];
+// arr.forEach(function prnum(val)
+// {
+//     console.log(val);
+// });
 
-let name = ["Prince","Anvik","Rishu","Himanshu","Harshit"];
-name.forEach((val) =>
-{
-    console.log(val);
+// let name = ["Prince","Anvik","Rishu","Himanshu","Harshit"];
+// name.forEach((val) =>
+// {
+//     console.log(val);
+// });
+
+let heros = ["Ironman","Batman","Spyderman","Saktiman"];
+heros.forEach(element => {
+    console.log(element)
 });

@@ -47,3 +47,4 @@ let less = marks1.map((values) => values-1)
     console.log(less);
 };
 
+

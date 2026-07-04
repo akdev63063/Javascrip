@@ -190,3 +190,25 @@ JavaScript
 
 document.getElementById("img").src = "new.jpg";
 */
+
+
+// 
+/*
+--------------------DOM Manipulation by ID (getElementById())-----------------------------
+
+getElementById() is one of the most commonly used DOM methods in JavaScript. It selects an HTML element using its id attribute.
+
+Syntax
+document.getElementById("idName");
+document → Represents the entire HTML document.
+getElementById() → Finds an element by its unique id.
+Returns the element object if found; otherwise returns null.
+*/
+
+let id_details = document.getElementById("first");
+console.dir(id_details);
+console.log(id_details);
+
+let id1_details = document.getElementById("secend");
+console.dir(id1_details);
+console.log(id1_details);

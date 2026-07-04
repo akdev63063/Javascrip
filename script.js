@@ -221,3 +221,10 @@ let by_tag = document.getElementsByTagName("p");
 console.dir(by_tag);
 console.log(by_tag);
 
+let query_selectoruse = document.querySelector("p");
+console.dir(query_selectoruse);
+console.log(query_selectoruse);
+
+let query_selectoruseall = document.querySelectorAll("p");
+console.dir(query_selectoruseall);
+console.log(query_selectoruseall);

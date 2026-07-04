@@ -217,3 +217,7 @@ let one_class = document.getElementsByClassName("one");
 console.dir(one_class);
 console.log(one_class);
 
+let by_tag = document.getElementsByTagName("p");
+console.dir(by_tag);
+console.log(by_tag);
+

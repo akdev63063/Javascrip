@@ -212,3 +212,8 @@ console.log(id_details);
 let id1_details = document.getElementById("secend");
 console.dir(id1_details);
 console.log(id1_details);
+
+let one_class = document.getElementsByClassName("one");
+console.dir(one_class);
+console.log(one_class);
+

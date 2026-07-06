@@ -276,3 +276,7 @@ let pr_print = document.getElementById("pr");
 pr_print.innerText= "Students of GBU College";
 console.log(pr_print.innerText);
 
+// Practice challenge Secend 
+let div_chang = document.getElementsByClassName("box");
+div_chang.innerText = "All text are updated";
+console.log(div_chang);

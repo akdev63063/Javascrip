@@ -258,4 +258,15 @@ console.log(query_selectoruseall);
 | `nodeValue`              | Text node value           |
 */
 
+let d = id1_details.tagName;
+console.log(d);
 
+let text = id1_details.innerText;
+console.log(text);
+
+let html_show = id_details.innerHTML;
+console.log(html_show);
+
+let contents = id1_details.textContent;
+console.log(contents);
+console.dir(contents);

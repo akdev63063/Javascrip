@@ -19,5 +19,17 @@
 {
     color: brown;
     text-align: center;
-    
+
+}
+
+.box
+{
+
+    width: 100px; 
+    height: 100px;
+    color: yellow;
+    border: 2px solid black ;
+    border-color: blue;
+    border-radius: 2%;
+    text-align: center;
 }

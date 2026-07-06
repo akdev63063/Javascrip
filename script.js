@@ -278,5 +278,13 @@ console.log(pr_print.innerText);
 
 // Practice challenge Secend 
 let div_chang = document.getElementsByClassName("box");
-div_chang.innerText = "All text are updated";
-console.log(div_chang);
+
+div_chang[0].innerText = "All text are updated 1";
+div_chang[1].innerText = "All text are updated 2";
+div_chang[2].innerText = "All text are updated 3";
+console.log(div_chang[0]);
+console.log(div_chang[1]);
+console.log(div_chang[2]);
+
+
+

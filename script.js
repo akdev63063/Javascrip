@@ -228,3 +228,34 @@ console.log(query_selectoruse);
 let query_selectoruseall = document.querySelectorAll("p");
 console.dir(query_selectoruseall);
 console.log(query_selectoruseall);
+
+// Dom Properties 
+/* 
+| Property                 | Purpose                   |
+| ------------------------ | ------------------------- |
+| `innerHTML`              | Get/Set HTML content      |
+| `innerText`              | Get/Set visible text      |
+| `textContent`            | Get/Set all text          |
+| `value`                  | Input value               |
+| `src`                    | Image source              |
+| `href`                   | Link URL                  |
+| `id`                     | Element ID                |
+| `className`              | CSS class                 |
+| `classList`              | Add/Remove/Toggle classes |
+| `style`                  | Change CSS                |
+| `attributes`             | All attributes            |
+| `title`                  | Tooltip text              |
+| `checked`                | Checkbox/Radio state      |
+| `disabled`               | Enable/Disable element    |
+| `children`               | Child elements            |
+| `parentElement`          | Parent element            |
+| `firstElementChild`      | First child element       |
+| `lastElementChild`       | Last child element        |
+| `nextElementSibling`     | Next sibling element      |
+| `previousElementSibling` | Previous sibling element  |
+| `nodeName`               | Tag name                  |
+| `nodeType`               | Node type                 |
+| `nodeValue`              | Text node value           |
+*/
+
+

@@ -270,3 +270,9 @@ console.log(html_show);
 let contents = id1_details.textContent;
 console.log(contents);
 console.dir(contents);
+
+// practice challenge One 1 
+let pr_print = document.getElementById("pr");
+pr_print.innerText= "Students of GBU College";
+console.log(pr_print.innerText);
+

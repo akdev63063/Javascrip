@@ -337,3 +337,9 @@ console.log("Its ready");
 let attr_show = get_attr.getAttribute("class");
 console.log(attr_show);
 
+
+// Setattribute setAttribute()
+
+let new_att = document.querySelector("div");
+console.log(new_att.setAttribute("class", "boxs"));
+

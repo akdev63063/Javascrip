@@ -284,7 +284,54 @@ div_chang[1].innerText = "All text are updated 2";
 div_chang[2].innerText = "All text are updated 3";
 console.log(div_chang[0]);
 console.log(div_chang[1]);
-console.log(div_chang[2]);
+console.log(div_chang[2]); 
+
+// Dom Manupulation by Attribute 
+
+/**In JavaScript, DOM manipulation by attribute means selecting or modifying HTML elements using their attributes such as id, class, name, data-*, etc.
+
+1. getAttribute()
+
+Returns the value of an attribute.
+
+HTML
+<p id="para" class="text">Hello World</p>
+JavaScript
+let p = document.getElementById("para");
+
+console.log(p.getAttribute("class"));
+
+Output
+
+text
+2. setAttribute()
+
+Adds a new attribute or changes an existing one.
+
+HTML
+<img id="image" src="cat.jpg">
+JavaScript
+let img = document.getElementById("image");
+
+img.setAttribute("src", "dog.jpg");
+img.setAttribute("width", "300");
+Result
+<img id="image" src="dog.jpg" width="300">
+3. removeAttribute()
+
+Removes an attribute.
+
+HTML
+<button id="btn" disabled>Click Me</button>
+JavaScript
+let btn = document.getElementById("btn");
+
+btn.removeAttribute("disabled");
+
+Now the button becomes clickable.
+**/
+
+
 
 
 

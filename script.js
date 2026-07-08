@@ -330,8 +330,10 @@ btn.removeAttribute("disabled");
 
 Now the button becomes clickable.
 **/
+let get_attr =document.querySelector("div");
+console.log(get_attr);
+console.log("Its ready");
 
-
-
-
+let attr_show = get_attr.getAttribute("class");
+console.log(attr_show);
 
